@@ -1,0 +1,49 @@
+#Javacard{
+    background-color: rgb(12, 12, 65);
+    height: 100%;
+    width: 100%;
+   /* margin-left: 150px;
+   margin-right: -10px; */
+   margin-top: 20px;
+}
+
+
+.Javabody{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+#Options{
+    font-size: xx-large;
+    
+}
+
+.Active{
+color: black;
+width: 300px;
+background-color: aqua;
+display: flex;
+flex: content;
+text-align: center;
+
+}
+/* unvisited link */
+.Active:link {
+    color: red;
+  }
+  
+  /* visited link */
+  #Options button:visited {
+    background-color: green;
+  }
+  
+  /* mouse over link */
+  .Active:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  .Active:active {
+    color: blue;
+  }
+
+ 

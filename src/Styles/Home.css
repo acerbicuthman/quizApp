@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.fs-1{
+    font-family: Montserrat;
+}
+  .main-container {
+    background-image: url('../Pictures/Quizpics/techwizbg.jpg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: relative;
+    min-height: 100vh;
+    /* max-width: fit-content; */
+    font-family: Montserrat;
+    overflow: hidden;
+  }
+
+.StrtQuiz{
+ font-size: xx-large;
+ color: white;
+ text-decoration: none;
+ bottom: 70%;
+
+}
+.imag{
+    /* height: 400px;
+    width: 500px; */
+   left: 40%;
+  /* top: 20%; */
+  position: relative;
+    opacity: 0.7;
+    border-radius: 30%;    
+}
+button{
+  margin: auto;
+  width: 250px;
+  height: 65px;
+  background: #553f9a;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:active{
+  color: #fff;
+}
+button:hover{
+    background-color: cadetblue;
+    border-radius: 20px;
+}
